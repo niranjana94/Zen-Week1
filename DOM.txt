@@ -1,0 +1,21 @@
+The Document Object Model (DOM) is a programming interface for HTML and XML documents.It defines the logical structure of documents and the way a document is accessed and manipulated.It represents the page so that programs can change the document structure, style, and content.
+
+The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.
+
+A Web page is a document. This document can be either displayed in the browser window or as the HTML source.The DOM is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript. 
+
+In the beginning, JavaScript and the DOM were tightly intertwined, but eventually, they evolved into separate entities. The page content is stored in the DOM and may be accessed and manipulated via JavaScript, so that we may write this approximative equation:
+
+API = DOM + JavaScript
+
+The DOM was designed to be independent of any particular programming language, making the structural representation of the document available from a single, consistent API. 
+
+it's inline in a <script> element or included in the web page by means of a script loading instruction and for using the API for the document or window elements to manipulate the document itself or to get at the children of that document, which are the various elements in the web page.
+
+The hierarchical structure applies to the organization of objects in a Web document are below.
+Window Object: Window Object is at always at top of hierarchy.
+Document object: When HTML document is loaded into a window, it becomes a document object.
+Form Object: It is represented by form tags.
+Link Objects: It is represented by link tags.
+Anchor Objects: It is represented by a href tags.
+Form Control Elements:: Form can have many control elements such as text fields, buttons, radio buttons, and checkboxes, etc.
