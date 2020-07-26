@@ -1,0 +1,7 @@
+WHY WE NEED HEADER TAG?
+
+The <header> element is one of several new semantic document tags introduced with HTML5.
+
+The <header> element is intended to usually contain the section’s heading and used to wrap a section’s table of contents, a search form, or any relevant logos.
+
+It requires a starting tag as well as an end tag.
