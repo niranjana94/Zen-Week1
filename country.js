@@ -2,8 +2,7 @@ var aaa = [{"name":"Afghanistan","topLevelDomain":[".af"],"alpha2Code":"AF","alp
 
 for(var i=0;i<aaa.length;i++)
 {
-	console.log(aaa[i].name);
-	console.log(aaa[i].capital);
-	console.log(aaa[i].flag);
-	console.log(aaa[i].languages);
+   aaa[i].id = i+1;	
 }
+console.log(JSON.stringify(aaa,null,1));
+
